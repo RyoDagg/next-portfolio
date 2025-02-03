@@ -15,11 +15,11 @@ type SpotlightProps = {
 };
 
 export const Spotlight = ({
-  gradientFirst = "radial-gradient(68.54% 68.72% at 55.02% 31.46%, hsla(210, 100%, 85%, .08) 0, hsla(210, 100%, 55%, .02) 50%, hsla(210, 100%, 45%, 0) 80%)",
-  gradientSecond = "radial-gradient(50% 50% at 50% 50%, hsla(210, 100%, 85%, .06) 0, hsla(210, 100%, 55%, .02) 80%, transparent 100%)",
-  gradientThird = "radial-gradient(50% 50% at 50% 50%, hsla(210, 100%, 85%, .04) 0, hsla(210, 100%, 45%, .02) 80%, transparent 100%)",
+  gradientFirst = "radial-gradient(30% 30% at 50% 50%, hsla(0, 100%, 20%, 0.2) 10%, hsla(240, 100%, 20%, 0.1) 80%, transparent 120%)",
+  gradientSecond = "radial-gradient(40% 40% at 50% 50%, hsla(0, 100%, 20%, 0.15) 10%, hsla(170, 100%, 10%, 0.2) 80%, transparent 120%)",
+  gradientThird = "radial-gradient(30% 30% at 50% 50%, hsla(240, 100%, 20%, 0.1) 10%, hsla(330, 100%, 20%, 0.02) 80%, transparent 120%)",
   translateY = -350,
-  width = 560,
+  width = 320,
   height = 1380,
   smallWidth = 240,
   duration = 7,
@@ -31,7 +31,7 @@ export const Spotlight = ({
         opacity: 0,
       }}
       animate={{
-        opacity: 1,
+        opacity: 0.5,
       }}
       transition={{
         duration: 1.5,
@@ -62,10 +62,10 @@ export const Spotlight = ({
 
         <div
           style={{
-            transform: "rotate(-45deg) translate(5%, -50%)",
+            transform: "rotate(45deg) translate(250%, -70%)",
             background: gradientSecond,
-            width: `${smallWidth}px`,
-            height: `${height}px`,
+            width: `${width}px`,
+            height: `${height * 2}px`,
           }}
           className={`absolute top-0 left-0 origin-top-left`}
         />
@@ -81,7 +81,7 @@ export const Spotlight = ({
         />
       </motion.div>
 
-      <motion.div
+      {/* <motion.div
         animate={{
           x: [0, -xOffset, 0],
         }}
@@ -122,7 +122,7 @@ export const Spotlight = ({
           }}
           className={`absolute top-0 right-0 origin-top-right`}
         />
-      </motion.div>
+      </motion.div> */}
     </motion.div>
   );
 };
