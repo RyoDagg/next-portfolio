@@ -8,27 +8,38 @@ const Hero = () => {
       <div className="h-96 w-full flex flex-col items-center justify-center relative">
         <Spotlight />
         <div className="flex flex-col items-center justify-center h-full p-8 text-center">
-          <h2 className="text-md sm:text-lg uppercase font-medium bg-clip-text text-transparent bg-gradient-to-b from-blue-50 to-gray-700">
-            Abdelkader Protfolio Fullstack Developer
+          <h2 className="text-md sm:text-2xl uppercase font-semibold bg-clip-text text-transparent bg-gradient-to-b from-blue-50 to-gray-500">
+            Fullstack Developer
           </h2>
           <TypewriterEffect
-            className="my-4 uppercase"
+            className="my-4 uppercase font-semibold"
             words={[
               {
-                text: "With no design, no conception,",
+                text: "I build with",
               },
               {
-                text: "the spirit of the coder",
-                className: "text-blue-500",
+                text: "agility",
+                className: "text-orange-500 font-bold italic",
               },
               {
-                text: "is truly formless and free.",
+                text: "adapting as I",
+              },
+              {
+                text: "code",
+                className: "text-blue-500 font-black",
+              },
+              {
+                text: "without",
+              },
+              {
+                text: "limits.",
+                className: "text-red-500 line-through italic",
               },
             ]}
           />
           <p className="text-xs md:text-lg font-medium text-gray-100 mt-2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Consequuntur, nisi!
+            👋 Hi, I'm Abdelkader! A passionate Fullstack Developer who loves
+            building 🌐 web and 📱mobile applications.
           </p>
         </div>
       </div>
