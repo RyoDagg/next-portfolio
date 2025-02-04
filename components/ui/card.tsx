@@ -1,9 +1,8 @@
 'use client';
-import { animate, motion } from 'framer-motion';
-import React, { useEffect, useState } from 'react';
+import { animate } from 'framer-motion';
+import React, { useEffect } from 'react';
 import { cn } from '@/lib/utils';
-import { GoCopilot } from 'react-icons/go';
-import { FaLaravel, FaNode, FaNodeJs, FaReact } from 'react-icons/fa';
+import { FaLaravel, FaNodeJs, FaReact } from 'react-icons/fa';
 import { SiNextdotjs, SiTypescript } from 'react-icons/si';
 
 export function CardDemo() {
