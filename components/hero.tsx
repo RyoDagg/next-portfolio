@@ -38,8 +38,8 @@ const Hero = () => {
             ]}
           />
           <p className="text-xs md:text-lg font-medium text-gray-100 mt-2">
-            👋 Hi, I'm Abdelkader! A passionate Fullstack Developer who loves
-            building 🌐 web and 📱mobile applications.
+            <span className="underline italic font-bold">#KIS</span>: Keep It
+            Simple 😉
           </p>
         </div>
       </div>
