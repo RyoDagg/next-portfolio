@@ -62,8 +62,7 @@ const Skeleton = () => {
   ];
 
   useEffect(() => {
-    animate(sequence, {
-      // @ts-expect-error
+    animate(sequence, [], {
       repeat: Infinity,
       repeatDelay: 1,
     });
@@ -127,7 +126,7 @@ export const CardSkeletonContainer = ({
         'h-[15rem] md:h-[20rem] rounded-xl z-40',
         className,
         showGradient &&
-          'bg-transparent [mask-image:radial-gradient(50%_50%_at_50%_50%,red_70%,transparent_90%)]'
+          'bg-black-100 [mask-image:radial-gradient(50%_50%_at_50%_50%,black_30%,transparent_120%)]'
       )}
     >
       {children}
