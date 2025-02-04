@@ -1,6 +1,6 @@
-import { DotBackground } from "./ui/dot-background";
-import { Spotlight } from "./ui/spotlight";
-import { TypewriterEffect } from "./ui/typewriter-effect";
+import { DotBackground } from './ui/dot-background';
+import { Spotlight } from './ui/spotlight';
+import { TypewriterEffect } from './ui/typewriter-effect';
 
 const Hero = () => {
   return (
@@ -15,25 +15,25 @@ const Hero = () => {
             className="my-4 uppercase font-semibold"
             words={[
               {
-                text: "I build with",
+                text: 'I build with',
               },
               {
-                text: "agility",
-                className: "text-orange-500 font-bold italic",
+                text: 'agility',
+                className: 'text-orange-500 font-bold italic',
               },
               {
-                text: "adapting as I",
+                text: 'adapting as I',
               },
               {
-                text: "code",
-                className: "text-blue-500 font-black",
+                text: 'code',
+                className: 'text-blue-500 font-black',
               },
               {
-                text: "without",
+                text: 'without',
               },
               {
-                text: "limits.",
-                className: "text-red-500 line-through italic",
+                text: 'limits.',
+                className: 'text-red-500 line-through italic',
               },
             ]}
           />

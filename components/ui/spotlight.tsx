@@ -1,6 +1,6 @@
-"use client";
-import React from "react";
-import { motion } from "motion/react";
+'use client';
+import React from 'react';
+import { motion } from 'motion/react';
 
 type SpotlightProps = {
   gradientFirst?: string;
@@ -15,9 +15,9 @@ type SpotlightProps = {
 };
 
 export const Spotlight = ({
-  gradientFirst = "radial-gradient(30% 30% at 50% 50%, hsla(0, 100%, 20%, 0.2) 10%, hsla(240, 100%, 20%, 0.1) 80%, transparent 120%)",
-  gradientSecond = "radial-gradient(40% 40% at 50% 50%, hsla(0, 100%, 20%, 0.15) 10%, hsla(170, 100%, 10%, 0.2) 80%, transparent 120%)",
-  gradientThird = "radial-gradient(30% 30% at 50% 50%, hsla(240, 100%, 20%, 0.1) 10%, hsla(330, 100%, 20%, 0.02) 80%, transparent 120%)",
+  gradientFirst = 'radial-gradient(30% 30% at 50% 50%, hsla(0, 100%, 20%, 0.2) 10%, hsla(240, 100%, 20%, 0.1) 80%, transparent 120%)',
+  gradientSecond = 'radial-gradient(40% 40% at 50% 50%, hsla(0, 100%, 20%, 0.15) 10%, hsla(170, 100%, 10%, 0.2) 80%, transparent 120%)',
+  gradientThird = 'radial-gradient(30% 30% at 50% 50%, hsla(240, 100%, 20%, 0.1) 10%, hsla(330, 100%, 20%, 0.02) 80%, transparent 120%)',
   translateY = -350,
   width = 320,
   height = 1380,
@@ -45,8 +45,8 @@ export const Spotlight = ({
         transition={{
           duration,
           repeat: Infinity,
-          repeatType: "reverse",
-          ease: "easeInOut",
+          repeatType: 'reverse',
+          ease: 'easeInOut',
         }}
         className="absolute top-0 left-0 w-screen h-screen z-40 pointer-events-none"
       >
@@ -62,7 +62,7 @@ export const Spotlight = ({
 
         <div
           style={{
-            transform: "rotate(45deg) translate(250%, -70%)",
+            transform: 'rotate(45deg) translate(250%, -70%)',
             background: gradientSecond,
             width: `${width}px`,
             height: `${height * 2}px`,
@@ -72,7 +72,7 @@ export const Spotlight = ({
 
         <div
           style={{
-            transform: "rotate(-45deg) translate(-180%, -70%)",
+            transform: 'rotate(-45deg) translate(-180%, -70%)',
             background: gradientThird,
             width: `${smallWidth}px`,
             height: `${height}px`,
