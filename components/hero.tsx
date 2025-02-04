@@ -5,7 +5,7 @@ import { TypewriterEffect } from './ui/typewriter-effect';
 const Hero = () => {
   return (
     <DotBackground>
-      <div className="h-96 w-full flex flex-col items-center justify-center relative">
+      <div className="h-screen w-full flex flex-col items-center justify-center relative">
         <Spotlight />
         <div className="flex flex-col items-center justify-center h-full p-8 text-center">
           <h2 className="text-md sm:text-2xl uppercase font-semibold bg-clip-text text-transparent bg-gradient-to-b from-blue-50 to-gray-500">

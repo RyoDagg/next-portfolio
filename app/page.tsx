@@ -1,3 +1,4 @@
+import About from '@/components/about';
 import Hero from '@/components/hero';
 import { FloatingNav } from '@/components/ui/floating-navbar';
 
@@ -8,7 +9,7 @@ const navItems = [
   },
   {
     name: 'About',
-    link: '#',
+    link: '#about',
   },
   {
     name: 'Contact',
@@ -22,6 +23,8 @@ export default function Home() {
       <div className="max-w-6xl w-full">
         <FloatingNav navItems={navItems} />
         <Hero />
+        <About />
+        <div className="h-[128rem]"></div>
       </div>
     </main>
   );
