@@ -1,4 +1,4 @@
-export const heroText = [
+export const heroText: { text: string; className?: string }[] = [
   {
     text: 'I build',
   },
