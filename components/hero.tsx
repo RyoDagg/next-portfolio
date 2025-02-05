@@ -2,7 +2,6 @@ import { HeroCard } from './ui/hero-card';
 import { DotBackground } from './ui/dot-background';
 import { Spotlight } from './ui/spotlight';
 import { TypewriterEffect } from './ui/typewriter-effect';
-import { heroText } from '@/data';
 
 const Hero = () => {
   return (
