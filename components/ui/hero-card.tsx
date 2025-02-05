@@ -5,7 +5,7 @@ import { cn } from '@/lib/utils';
 import { FaLaravel, FaNodeJs, FaReact } from 'react-icons/fa';
 import { SiNextdotjs, SiTypescript } from 'react-icons/si';
 
-export function CardDemo() {
+export function HeroCard() {
   return (
     <Card>
       <CardSkeletonContainer>
