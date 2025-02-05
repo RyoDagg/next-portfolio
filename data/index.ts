@@ -23,7 +23,10 @@ export const heroText = [
     text: 'without',
   },
   {
-    text: 'limits.',
+    text: 'limits',
     className: 'text-red-500 line-through italic',
+  },
+  {
+    text: '.',
   },
 ];
