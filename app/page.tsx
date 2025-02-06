@@ -1,5 +1,6 @@
 import About from '@/components/about';
 import Hero from '@/components/hero';
+import Technologies from '@/components/technologies';
 import { FloatingNav } from '@/components/ui/floating-navbar';
 
 const navItems = [
@@ -24,6 +25,7 @@ export default function Home() {
         <FloatingNav navItems={navItems} />
         <Hero />
         <About />
+        <Technologies />
         <div className="h-[128rem]"></div>
       </div>
     </main>
