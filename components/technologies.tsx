@@ -46,6 +46,46 @@ const Technologies = () => {
             </p>
           </div>
         </li>
+        <li>
+          <div className="felx felx-col justufy-center align-center">
+            <FaReact className="w-16 h-16 mx-12 text-blue-500" />
+            <p className="text-xl text-gray-200 text-center font-bold mt-2">
+              ReactJs
+            </p>
+          </div>
+        </li>
+        <li>
+          <div className="felx felx-col justufy-center align-center">
+            <FaLaravel className="w-16 h-16 mx-12 text-red-500" />
+            <p className="text-xl text-gray-200 text-center font-bold mt-2">
+              Laravel
+            </p>
+          </div>
+        </li>
+        <li>
+          <div className="felx felx-col justufy-center align-center">
+            <FaNodeJs className="w-16 h-16 mx-12 text-green-500" />
+            <p className="text-xl text-gray-200 text-center font-bold mt-2">
+              NodeJs
+            </p>
+          </div>
+        </li>
+        <li>
+          <div className="felx felx-col justufy-center align-center">
+            <SiNextdotjs className="w-16 h-16 mx-12 text-gray-200" />
+            <p className="text-xl text-gray-200 text-center font-bold mt-2">
+              NextJS
+            </p>
+          </div>
+        </li>
+        <li>
+          <div className="felx felx-col justufy-center align-center">
+            <SiExpress className="w-16 h-16 mx-12 rounded-full bg-gray-800 p-2 text-white" />
+            <p className="text-xl text-gray-200 text-center font-bold mt-2">
+              ExpressJs
+            </p>
+          </div>
+        </li>
       </InfiniteMovingCards>
     </section>
   );
