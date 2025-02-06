@@ -5,7 +5,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="relative bg-white py-8 shadow-[0px_20px_5px_10px_rgba(255,255,255,1)]"
+      className="relative bg-white py-8 shadow-[0px_5px_5px_4px_rgba(255,255,255,1)] mb-4"
     >
       <div className="flex items-center justify-center">
         <div className="max-w-5xl p-5 text-center text-gray-900">
