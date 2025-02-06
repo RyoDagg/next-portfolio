@@ -4,8 +4,11 @@ import { SiExpress, SiNextdotjs } from 'react-icons/si';
 
 const Technologies = () => {
   return (
-    <section className="flex justify-center items-center mx-auto relative w-full py-16">
-      <InfiniteMovingCards>
+    <section className="mx-auto relative w-full py-16">
+      <h3 className="text-5xl text-gray-300 font-bold text-center my-16">
+        Technologies I use
+      </h3>
+      <InfiniteMovingCards speed="normal" className="mx-auto">
         <li>
           <div className="felx felx-col justufy-center align-center">
             <FaReact className="w-16 h-16 mx-12 text-blue-500" />
