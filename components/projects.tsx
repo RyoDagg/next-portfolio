@@ -12,7 +12,7 @@ import Link from 'next/link';
 const Projects = () => {
   const projects = [
     {
-      name: 'KnoW Me',
+      name: 'Know Me',
       bgImage: knowMeImage,
       image: knowMeImage,
       website: 'knowme.tn',
