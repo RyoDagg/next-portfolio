@@ -38,16 +38,16 @@ const Projects = () => {
   ];
 
   return (
-    <div className="relative w-full snap-start">
+    <div className="relative w-full space-y-64 mb-36">
       <div className="sticky h-[50vh] top-0 p-8">
-        <h3 className="text-7xl text-gray-300 font-bold text-center my-16">
+        <h3 className="text-7xl text-gray-300 font-bold text-center mt-20">
           Sample Projects
         </h3>
       </div>
       {projects.map((project, index) => (
         <div
           key={index}
-          className={`sticky top-0 h-screen p-8 w-full bg-black-100 flex items-center justify-center overflow-hidden`}
+          className={`sticky top-0 h-screen p-8 w-full bg-gray-700 flex items-center justify-center overflow-hidden`}
         >
           <Image
             objectFit="cover"
@@ -79,6 +79,7 @@ const Projects = () => {
           </WobbleCard>
         </div>
       ))}
+      <div className="h-64"></div>
     </div>
   );
 };
