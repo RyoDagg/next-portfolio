@@ -29,7 +29,6 @@ export default function Home() {
         <About />
         <Technologies />
         <Projects />
-        <Grid />
         <div className="h-[32rem]">
           <div className="flex justify-center items-center mt-10 gap-4">
             <IoConstruct className="text-6xl text-gray-200" />
