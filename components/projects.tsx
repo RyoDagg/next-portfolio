@@ -3,6 +3,8 @@ import Image from 'next/image';
 import knowMeImage from '../public/websites/knowme.png';
 import linkeraImage from '../public/websites/linkera.png';
 import portfolioImage from '../public/websites/portfolio.png';
+import lestricolores from '../public/websites/lestricolores.png';
+import lestricoloresApp from '../public/websites/lestricolores-app.jpg';
 import { WobbleCard } from './ui/wobble-card';
 import { CgArrowTopRight } from 'react-icons/cg';
 import Link from 'next/link';
@@ -10,22 +12,28 @@ import Link from 'next/link';
 const Projects = () => {
   const projects = [
     {
-      color: 'bg-cyan-500',
       name: 'KnoW Me',
+      bgImage: knowMeImage,
       image: knowMeImage,
       website: 'knowme.tn',
     },
     {
-      color: 'bg-green-700',
       name: 'Linkera',
+      bgImage: linkeraImage,
       image: linkeraImage,
       website: 'app.linkera.com',
     },
     {
-      color: 'bg-black-100',
       name: 'My portfolio',
+      bgImage: portfolioImage,
       image: portfolioImage,
       website: 'abdelkader-mannai.tn',
+    },
+    {
+      name: 'Les Tricolores',
+      bgImage: lestricolores,
+      image: lestricoloresApp,
+      website: 'lestricolores.fr',
     },
   ];
 
@@ -45,7 +53,7 @@ const Projects = () => {
             objectFit="cover"
             layout="fill"
             objectPosition="top center"
-            src={project.image}
+            src={project.bgImage}
             alt={project.name}
             className="w-full h-full object-cover blur-sm opacity-50"
           />
@@ -59,8 +67,7 @@ const Projects = () => {
               src={project.image}
               alt={project.name}
               width={500}
-              height={300}
-              className="border-2 mx-auto"
+              className="border-2 mx-auto w-full max-h-96"
             />
             <Link
               href={`https://${project.website}`}
