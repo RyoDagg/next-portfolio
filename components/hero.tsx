@@ -56,10 +56,6 @@ const Hero = () => {
                 },
               ]}
             />
-            <p className="text-2xl font-medium text-gray-200 mt-8">
-              <span className="underline italic font-bold">#KIS</span>: Keep It
-              Simple 😉
-            </p>
             <div className="flex items-center justify-center my-4 gap-8">
               <Link
                 href="https://www.linkedin.com/in/abdelkader-mannai/"
@@ -77,6 +73,10 @@ const Hero = () => {
                 <SiGmail className="w-16 h-16 text-red-600 hover:drop-shadow-md hover:text-red-800" />
               </Link>
             </div>
+            <p className="text-2xl font-medium text-gray-200 mt-4">
+              <span className="underline italic font-bold">#KIS</span>: Keep It
+              Simple 😉
+            </p>
           </div>
           <div className="col-span-1">
             <HeroCard />
