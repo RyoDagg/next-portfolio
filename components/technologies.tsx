@@ -37,7 +37,7 @@ const Technologies = () => {
           <div className="felx felx-col justufy-center align-center">
             <SiNextdotjs className="w-16 h-16 mx-12 text-gray-200" />
             <p className="text-xl text-gray-200 text-center font-bold mt-2">
-              NextJS
+              NextJs
             </p>
           </div>
         </li>
@@ -77,7 +77,7 @@ const Technologies = () => {
           <div className="felx felx-col justufy-center align-center">
             <SiNextdotjs className="w-16 h-16 mx-12 text-gray-200" />
             <p className="text-xl text-gray-200 text-center font-bold mt-2">
-              NextJS
+              NextJs
             </p>
           </div>
         </li>
