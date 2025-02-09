@@ -7,7 +7,7 @@ import { PiTerminalWindowDuotone } from 'react-icons/pi';
 const Hero = () => {
   return (
     <DotBackground>
-      <div className="h-screen w-full max-w-7xl relative p-8">
+      <div className="h-screen w-full max-w-7xl relative p-8 overflow-hidden">
         <Spotlight />
         <div className="grid grid-cols-1 md:grid-cols-3 mt-28">
           <div className="flex flex-col items-start gap-4 justify-start col-span-2 h-full w-full text-center">
