@@ -5,9 +5,9 @@ import { SiExpress, SiNextdotjs } from 'react-icons/si';
 const Technologies = () => {
   return (
     <section className="mx-auto relative w-full py-16">
-      <h3 className="text-5xl text-gray-300 font-bold text-center my-16">
+      <h2 className="text-6xl text-gray-300 font-bold text-center my-16">
         Technologies I use
-      </h3>
+      </h2>
       <InfiniteMovingCards speed="normal" className="mx-auto">
         <li>
           <div className="felx felx-col justufy-center align-center">

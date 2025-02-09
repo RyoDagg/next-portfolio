@@ -38,9 +38,9 @@ const Projects = () => {
   ];
 
   return (
-    <div className="relative w-full space-y-64 mb-36">
-      <div className="sticky h-[50vh] top-0 p-8">
-        <h3 className="text-7xl text-gray-300 font-bold text-center mt-20">
+    <div className="relative w-full space-y-64 mb-36 bg-white mt-32">
+      <div className="sticky h-96 top-0 p-8">
+        <h3 className="text-6xl text-gray-900 font-bold text-center mt-20">
           Sample Projects
         </h3>
       </div>
