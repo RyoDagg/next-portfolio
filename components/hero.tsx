@@ -3,6 +3,8 @@ import { DotBackground } from './ui/dot-background';
 import { Spotlight } from './ui/spotlight';
 import { TypewriterEffect } from './ui/typewriter-effect';
 import { PiTerminalWindowDuotone } from 'react-icons/pi';
+import Link from 'next/link';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const Hero = () => {
   return (
@@ -57,6 +59,20 @@ const Hero = () => {
               <span className="underline italic font-bold">#KIS</span>: Keep It
               Simple 😉
             </p>
+            <div className="flex items-center justify-center my-4 gap-8">
+              <Link
+                href="https://www.linkedin.com/in/abdelkader-mannai/"
+                target="_blank"
+              >
+                <FaLinkedin className="w-16 h-16 text-blue-600 hover:drop-shadow-md hover:text-blue-800" />
+              </Link>
+              <Link
+                href="https://www.linkedin.com/in/abdelkader-mannai/"
+                target="_blank"
+              >
+                <FaGithub className="w-16 h-16 text-gray-100 hover:drop-shadow-md hover:text-gray-400" />
+              </Link>
+            </div>
           </div>
           <div className="col-span-1">
             <HeroCard />
