@@ -5,6 +5,7 @@ import { TypewriterEffect } from './ui/typewriter-effect';
 import { PiTerminalWindowDuotone } from 'react-icons/pi';
 import Link from 'next/link';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { SiGmail } from 'react-icons/si';
 
 const Hero = () => {
   return (
@@ -71,6 +72,9 @@ const Hero = () => {
                 target="_blank"
               >
                 <FaGithub className="w-16 h-16 text-gray-100 hover:drop-shadow-md hover:text-gray-400" />
+              </Link>
+              <Link href="mailto:mannai.abdlkader@gmail.com" target="_blank">
+                <SiGmail className="w-16 h-16 text-red-600 hover:drop-shadow-md hover:text-red-800" />
               </Link>
             </div>
           </div>
