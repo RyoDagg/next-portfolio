@@ -1,94 +1,79 @@
 import { FaLaravel, FaNodeJs, FaReact } from 'react-icons/fa';
 import { InfiniteMovingCards } from './ui/infinite-moving-cards';
-import { SiExpress, SiNextdotjs } from 'react-icons/si';
+import { SiExpo, SiExpress, SiNextdotjs } from 'react-icons/si';
+
+const techs = [
+  {
+    icon: <FaReact className="w-12 h-12 md:w-16 md:h-16 text-blue-500" />,
+    name: 'ReactJs',
+  },
+  {
+    icon: <FaLaravel className="w-12 h-12 md:w-16 md:h-16 text-red-500" />,
+    name: 'Laravel',
+  },
+  {
+    icon: <FaNodeJs className="w-12 h-12 md:w-16 md:h-16 text-green-500" />,
+    name: 'NodeJs',
+  },
+  {
+    icon: <SiNextdotjs className="w-12 h-12 md:w-16 md:h-16 text-gray-200" />,
+    name: 'NextJs',
+  },
+  {
+    icon: (
+      <SiExpress className="w-12 h-12 md:w-16 md:h-16 rounded-full bg-gray-800 p-2 text-white" />
+    ),
+    name: 'ExpressJs',
+  },
+  {
+    icon: <SiExpo className="w-12 h-12 md:w-16 md:h-16 text-gray-100" />,
+    name: 'Expo',
+  },
+  {
+    icon: <FaReact className="w-12 h-12 md:w-16 md:h-16 text-blue-500" />,
+    name: 'ReactJs',
+  },
+  {
+    icon: <FaLaravel className="w-12 h-12 md:w-16 md:h-16 text-red-500" />,
+    name: 'Laravel',
+  },
+  {
+    icon: <FaNodeJs className="w-12 h-12 md:w-16 md:h-16 text-green-500" />,
+    name: 'NodeJs',
+  },
+  {
+    icon: <SiNextdotjs className="w-12 h-12 md:w-16 md:h-16 text-gray-200" />,
+    name: 'NextJs',
+  },
+  {
+    icon: (
+      <SiExpress className="w-12 h-12 md:w-16 md:h-16 rounded-full bg-gray-800 p-2 text-white" />
+    ),
+    name: 'ExpressJs',
+  },
+  {
+    icon: <SiExpo className="w-12 h-12 md:w-16 md:h-16 text-gray-100" />,
+    name: 'Expo',
+  },
+];
 
 const Technologies = () => {
   return (
-    <section className="mx-auto relative w-full py-16">
-      <h2 className="text-6xl text-gray-300 font-bold text-center my-16">
+    <section className="mx-auto relative w-full py-8 md:py-16">
+      <h2 className="text-4xl md:text-6xl text-gray-300 font-bold text-center my-8 md:my-16">
         Technologies I use
       </h2>
       <InfiniteMovingCards speed="normal" className="mx-auto">
-        <li>
-          <div className="felx felx-col justufy-center align-center">
-            <FaReact className="w-16 h-16 mx-12 text-blue-500" />
-            <p className="text-xl text-gray-200 text-center font-bold mt-2">
-              ReactJs
-            </p>
-          </div>
-        </li>
-        <li>
-          <div className="felx felx-col justufy-center align-center">
-            <FaLaravel className="w-16 h-16 mx-12 text-red-500" />
-            <p className="text-xl text-gray-200 text-center font-bold mt-2">
-              Laravel
-            </p>
-          </div>
-        </li>
-        <li>
-          <div className="felx felx-col justufy-center align-center">
-            <FaNodeJs className="w-16 h-16 mx-12 text-green-500" />
-            <p className="text-xl text-gray-200 text-center font-bold mt-2">
-              NodeJs
-            </p>
-          </div>
-        </li>
-        <li>
-          <div className="felx felx-col justufy-center align-center">
-            <SiNextdotjs className="w-16 h-16 mx-12 text-gray-200" />
-            <p className="text-xl text-gray-200 text-center font-bold mt-2">
-              NextJs
-            </p>
-          </div>
-        </li>
-        <li>
-          <div className="felx felx-col justufy-center align-center">
-            <SiExpress className="w-16 h-16 mx-12 rounded-full bg-gray-800 p-2 text-white" />
-            <p className="text-xl text-gray-200 text-center font-bold mt-2">
-              ExpressJs
-            </p>
-          </div>
-        </li>
-        <li>
-          <div className="felx felx-col justufy-center align-center">
-            <FaReact className="w-16 h-16 mx-12 text-blue-500" />
-            <p className="text-xl text-gray-200 text-center font-bold mt-2">
-              ReactJs
-            </p>
-          </div>
-        </li>
-        <li>
-          <div className="felx felx-col justufy-center align-center">
-            <FaLaravel className="w-16 h-16 mx-12 text-red-500" />
-            <p className="text-xl text-gray-200 text-center font-bold mt-2">
-              Laravel
-            </p>
-          </div>
-        </li>
-        <li>
-          <div className="felx felx-col justufy-center align-center">
-            <FaNodeJs className="w-16 h-16 mx-12 text-green-500" />
-            <p className="text-xl text-gray-200 text-center font-bold mt-2">
-              NodeJs
-            </p>
-          </div>
-        </li>
-        <li>
-          <div className="felx felx-col justufy-center align-center">
-            <SiNextdotjs className="w-16 h-16 mx-12 text-gray-200" />
-            <p className="text-xl text-gray-200 text-center font-bold mt-2">
-              NextJs
-            </p>
-          </div>
-        </li>
-        <li>
-          <div className="felx felx-col justufy-center align-center">
-            <SiExpress className="w-16 h-16 mx-12 rounded-full bg-gray-800 p-2 text-white" />
-            <p className="text-xl text-gray-200 text-center font-bold mt-2">
-              ExpressJs
-            </p>
-          </div>
-        </li>
+        {techs.map((tech, index) => (
+          <li key={index}>
+            <div className="flex flex-col justify-center items-center">
+              {tech.icon}
+              <p className="text-lg md:text-xl text-gray-200 text-center font-bold mt-2">
+                {tech.name}
+              </p>
+            </div>
+          </li>
+        ))}
       </InfiniteMovingCards>
     </section>
   );
