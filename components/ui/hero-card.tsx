@@ -68,7 +68,7 @@ const Skeleton = () => {
     });
   }, []);
   return (
-    <div className="p-8 overflow-hidden h-full relative flex items-center justify-center">
+    <div className="p-2 lg:p-8 overflow-hidden h-full relative flex items-center justify-center">
       <div className="flex flex-row flex-shrink-0 justify-center items-center gap-2">
         <Container className="h-10 w-10 circle-1">
           <FaLaravel className="h-6 w-6 text-red-500" />
