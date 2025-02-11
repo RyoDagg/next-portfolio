@@ -4,55 +4,75 @@ import { SiExpo, SiExpress, SiNextdotjs } from 'react-icons/si';
 
 const techs = [
   {
-    icon: <FaReact className="w-12 h-12 md:w-16 md:h-16 text-blue-500" />,
+    icon: (
+      <FaReact className="w-12 h-12 md:w-16 md:h-16 mx-6 md:mx-12 text-blue-500" />
+    ),
     name: 'ReactJs',
   },
   {
-    icon: <FaLaravel className="w-12 h-12 md:w-16 md:h-16 text-red-500" />,
+    icon: (
+      <FaLaravel className="w-12 h-12 md:w-16 md:h-16 mx-6 md:mx-12 text-red-500" />
+    ),
     name: 'Laravel',
   },
   {
-    icon: <FaNodeJs className="w-12 h-12 md:w-16 md:h-16 text-green-500" />,
+    icon: (
+      <FaNodeJs className="w-12 h-12 md:w-16 md:h-16 mx-6 md:mx-12 text-green-500" />
+    ),
     name: 'NodeJs',
   },
   {
-    icon: <SiNextdotjs className="w-12 h-12 md:w-16 md:h-16 text-gray-200" />,
+    icon: (
+      <SiNextdotjs className="w-12 h-12 md:w-16 md:h-16 mx-6 md:mx-12 text-gray-200" />
+    ),
     name: 'NextJs',
   },
   {
     icon: (
-      <SiExpress className="w-12 h-12 md:w-16 md:h-16 rounded-full bg-gray-800 p-2 text-white" />
+      <SiExpress className="w-12 h-12 md:w-16 md:h-16 mx-6 md:mx-12 rounded-full bg-gray-800 p-2 text-white" />
     ),
     name: 'ExpressJs',
   },
   {
-    icon: <SiExpo className="w-12 h-12 md:w-16 md:h-16 text-gray-100" />,
+    icon: (
+      <SiExpo className="w-12 h-12 md:w-16 md:h-16 mx-6 md:mx-12 text-gray-100" />
+    ),
     name: 'Expo',
   },
   {
-    icon: <FaReact className="w-12 h-12 md:w-16 md:h-16 text-blue-500" />,
+    icon: (
+      <FaReact className="w-12 h-12 md:w-16 md:h-16 mx-6 md:mx-12 text-blue-500" />
+    ),
     name: 'ReactJs',
   },
   {
-    icon: <FaLaravel className="w-12 h-12 md:w-16 md:h-16 text-red-500" />,
+    icon: (
+      <FaLaravel className="w-12 h-12 md:w-16 md:h-16 mx-6 md:mx-12 text-red-500" />
+    ),
     name: 'Laravel',
   },
   {
-    icon: <FaNodeJs className="w-12 h-12 md:w-16 md:h-16 text-green-500" />,
+    icon: (
+      <FaNodeJs className="w-12 h-12 md:w-16 md:h-16 mx-6 md:mx-12 text-green-500" />
+    ),
     name: 'NodeJs',
   },
   {
-    icon: <SiNextdotjs className="w-12 h-12 md:w-16 md:h-16 text-gray-200" />,
+    icon: (
+      <SiNextdotjs className="w-12 h-12 md:w-16 md:h-16 mx-6 md:mx-12 text-gray-200" />
+    ),
     name: 'NextJs',
   },
   {
     icon: (
-      <SiExpress className="w-12 h-12 md:w-16 md:h-16 rounded-full bg-gray-800 p-2 text-white" />
+      <SiExpress className="w-12 h-12 md:w-16 md:h-16 mx-6 md:mx-12 rounded-full bg-gray-800 p-2 text-white" />
     ),
     name: 'ExpressJs',
   },
   {
-    icon: <SiExpo className="w-12 h-12 md:w-16 md:h-16 text-gray-100" />,
+    icon: (
+      <SiExpo className="w-12 h-12 md:w-16 md:h-16 mx-6 md:mx-12 text-gray-100" />
+    ),
     name: 'Expo',
   },
 ];
@@ -63,7 +83,11 @@ const Technologies = () => {
       <h2 className="text-4xl md:text-6xl text-gray-300 font-bold text-center my-8 md:my-16">
         Technologies I use
       </h2>
-      <InfiniteMovingCards speed="normal" className="mx-auto">
+      <InfiniteMovingCards
+        speed="normal"
+        className="mx-auto"
+        pauseOnHover={false}
+      >
         {techs.map((tech, index) => (
           <li key={index}>
             <div className="flex flex-col justify-center items-center">
