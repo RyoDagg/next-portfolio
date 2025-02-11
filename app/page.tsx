@@ -13,9 +13,9 @@ export default function Home() {
         <Technologies />
         <Projects />
         <div className="h-[32rem]">
-          <div className="flex justify-center items-center mt-10 gap-4">
-            <IoConstruct className="text-6xl text-gray-200" />
-            <h1 className="text-5xl font-semibold uppercase text-gray-200 text-center">
+          <div className="text-4xl text-center">
+            <IoConstruct className="text-gray-200 inline" />{' '}
+            <h1 className="font-semibold uppercase text-gray-200 text-center inline">
               under construction...
             </h1>
           </div>
