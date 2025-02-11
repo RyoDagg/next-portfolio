@@ -8,6 +8,7 @@ import lestricoloresApp from '../public/websites/lestricolores-app.jpg';
 import { WobbleCard } from './ui/wobble-card';
 import { CgArrowTopRight } from 'react-icons/cg';
 import Link from 'next/link';
+import { GridBackground } from './ui/grid-background';
 
 const Projects = () => {
   const projects = [
@@ -40,9 +41,11 @@ const Projects = () => {
   return (
     <div className="relative w-full space-y-64 mb-36 bg-white mt-32">
       <div className="sticky h-96 top-0 p-8">
-        <h3 className="text-6xl text-gray-900 font-bold text-center mt-20">
-          Sample Projects
-        </h3>
+        <GridBackground>
+          <h2 className="text-4xl md:text-6xl text-gray-900 z-50 drop-shadow-xl font-bold text-center mt-10 md:mt-20 my-8 md:my-16">
+            Sample Projects
+          </h2>
+        </GridBackground>
       </div>
       {projects.map((project, index) => (
         <div
